@@ -1,0 +1,58 @@
+h1 {
+  text-align: center;
+}
+
+body {
+  background-color: #f7f7f4;
+}
+
+.box {
+  margin-left: 200px;
+  background-color: #9e9e9e;
+  border: 5px solid #795548;
+  width: 1000px;
+  height: 500px;
+}
+
+#square {
+  position: absolute;
+  left: 250px;
+  top: 325px;
+  width: 30px;
+  height: 30px;
+  background-color: #d63434;
+}
+
+#brick {
+  position: relative;
+  left: 970px;
+  top: 100px;
+  background-color: #217624;
+  width: 25px;
+  height: 100px;
+}
+
+#start {
+  margin-left: 650px;
+  margin-top: 10px;
+  font-size: 50px;
+  shape-outside: border-box;
+  background-color: white;
+}
+
+#gameOverBox {
+  text-align: center;
+  visibility: hidden;
+  font-size: 40px;
+  margin-left: 600px;
+  margin-top: -400px;
+  width: 200px;
+  height: 100px;
+  background-color: white;
+  border: 1px solid #795548;
+}
+
+#restart {
+  font-size: 30px;
+  shape-outside: border-box;
+}
